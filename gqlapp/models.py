@@ -7,7 +7,7 @@ class ProductModel(models.Model):
     Product = models.CharField(max_length=100)
     Units = models.IntegerField()
     Sales = models.IntegerField()
-    Date_sold = models.CharField(max_length=100)
+    Datesold = models.CharField(max_length=100)
 
     def __str__(self):
         return self.Product
